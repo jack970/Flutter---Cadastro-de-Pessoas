@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crud/provider/users.dart';
 import 'package:provider/provider.dart ';
-import 'package:flutter/material.dart';
 import 'package:flutter_crud/models/user.dart';
 import 'package:flutter_crud/routes/app_routes.dart';
 
