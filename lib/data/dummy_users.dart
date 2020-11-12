@@ -5,19 +5,19 @@ const DUMMY_USERS = {
     id: '1',
     name: "Maria",
     email: "maria@alunos.com",
-    avatarUrl: "https://cdn.pixabay.com/photo/2020/04/15/17/32/medical-5047582_1280.png"
+    avatarUrl: "https://cdn.pixabay.com/photo/2017/12/16/06/41/avatar-3022215_960_720.jpg"
   ),
   "2": const User(
     id: "2",
     name: "Rafael", 
     email: "rafael@alunos.com.br", 
-    avatarUrl: "https://cdn.pixabay.com/photo/2020/04/15/17/32/medical-5047582_1280.png"
+    avatarUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
   ),
   "3": const User(
     id:"3",
     name: "Fernanda", 
     email: "fernanda@zymail.com", 
-    avatarUrl: "https://cdn.pixabay.com/photo/2020/04/15/17/32/medical-5047582_1280.png"),
+    avatarUrl: "https://cdn.pixabay.com/photo/2017/12/16/06/41/avatar-3022215_960_720.jpg"),
   "4": const User(
     id:"4",
     name: "Guilherme", 

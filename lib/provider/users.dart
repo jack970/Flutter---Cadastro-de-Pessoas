@@ -25,7 +25,7 @@ class Users with ChangeNotifier {
     }
 
     if (user.id != null &&
-        !user.id.trim().isNotEmpty &&
+        user.id.trim().isNotEmpty &&
         _items.containsKey(user.id)) {
       _items.update(
         user.id,
@@ -36,8 +36,7 @@ class Users with ChangeNotifier {
           avatarUrl: user.avatarUrl,
         ),
       );
-    } 
-    else {
+    } else {
       final id = Random().nextDouble().toString();
       _items.putIfAbsent(
         '1000',
@@ -49,9 +48,13 @@ class Users with ChangeNotifier {
         ),
       );
     }
-
-    //adicionar ou alterar
-
     notifyListeners();
+  }
+
+  void remove(User user) {
+    if (user != null && user.id != null) {
+      _items.remove(user.id);
+      notifyListeners();
+    }
   }
 }
